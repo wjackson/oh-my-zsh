@@ -1,7 +1,7 @@
 custom_green=$FG[035]
 custom_grey=$FG[102]
 
-PROMPT='%{$custom_green%}%B%m%{$custom_grey%}:%c$(custom_git_prompt_info)%(?..%{$fg[red]%} ✘)%{$custom_grey%}➤ % %{$reset_color%}'
+PROMPT='%{$custom_green%}%B%m%{$custom_grey%}:%c$(custom_git_prompt_info)%{$custom_grey%}%(?..%{$fg_bold[red]%})➤ % %{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%} git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
